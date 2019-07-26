@@ -1,0 +1,416 @@
+{
+    "name": "ga_videos",
+    "parent": "null",
+    "children": [
+      {
+        "name": "date",
+        "parent": "ga_videos",        
+      },
+      {
+        "name": "fullvisitorid",
+        "parent": "ga_videos",        
+      },
+      {
+        "name": "visitid",
+        "parent": "ga_videos",        
+      },
+      {
+        "name": "clientid",
+        "parent": "ga_videos",        
+      },
+      {
+        "name": "provider",
+        "parent": "ga_videos",        
+      },
+      {
+        "name": "visitStartTime",
+        "parent": "ga_videos",        
+      },
+      {
+        "name": "fullvisitorid",
+        "parent": "ga_videos",        
+      },
+
+      {
+        "name": "device",
+        "parent": "ga_videos",
+        "children": [
+          {
+            "name": "device. device_browser",
+            "parent": "device"
+          },
+          {
+            "name": "device. device_operatingSystem",
+            "parent": "device"
+          },
+          {
+            "name": "device. device_deviceCategory",
+            "parent": "device"
+          },
+          {
+            "name": "device. hit_platform",
+            "parent": "device"
+          },
+          {
+            "name": "device. hit_enviroment",
+            "parent": "device"
+          },
+          {
+            "name": "device. hit_video_domain",
+            "parent": "device"
+          }
+        ]
+      },
+      {
+        "name": "geonetwork",
+        "parent": "ga_videos",
+        "children": [
+          {
+            "name": "geonetwork. geonetwork_country",
+            "parent": "geonetwork"
+          },
+          {
+            "name": "geonetwork. geonetwork_region",
+            "parent": "geonetwork"
+          },
+          {
+            "name": "geonetwork. geonetwork_city",
+            "parent": "geonetwork"
+          }
+        ]
+      },
+      {
+        "name": "video",
+        "parent": "ga_videos",
+        "children": [
+          {
+            "name": "video.id",
+            "parent": "video"
+          },
+          {
+            "name": "video.domain",
+            "parent": "video"
+          },
+          {
+            "name": "video.StartTime",
+            "parent": "video"
+          },
+          {
+            "name": "video.endTime",
+            "parent": "video"
+          },
+          {
+            "name": "video.metadata",
+            "parent": "video",
+            "children": [
+               {
+                  "name": "video.metadata.category",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.accessible_offline",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.channel_id",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.program_id",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.subscriber_only",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.video_title",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.episode_id",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.episode_title",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.episode_exhibited_at",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.exhibited_at",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.published_at",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.duration",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.duration_sec",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.kind",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.content_owner",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.default_category",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.program_title",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.channel_title",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.episode",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.season",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.extended_metadata_season",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.extended_metadata_episode",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.subset",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.TotalDurationSec_Episode",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.TotalDurationSec_Excerpt",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.TotalDurationSec_Extra",
+                  "parent": "video.metadata"
+               },
+               {
+                  "name": "video.metadata.totalDurationSec_FullEpisode",
+                  "parent": "video.metadata"
+               }
+            ]
+          },
+          {
+            "name": "video.totals",
+            "parent": "video",
+            "children": [
+               {
+                  "name": "video.totals.start",
+                  "parent": "video.totals"
+               },
+               {
+                  "name": "video.totals.complete",
+                  "parent": "video.totals"
+               },
+               {
+                  "name": "video.totals.pause",
+                  "parent": "video.totals"
+               },
+               {
+                  "name": "video.totals.seek",
+                  "parent": "video.totals"
+               },
+               {
+                  "name": "video.totals.playtime",
+                  "parent": "video.totals"
+               },
+               {
+                  "name": "video.totals.playtime_original",
+                  "parent": "video.totals"
+               }
+            ]
+          },
+          {
+            "name": "video.hits",
+            "parent": "video",
+            "children": [
+               {
+                  "name": "video.hits.hitnumber",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.time",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.hour",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.minute",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.action",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.label",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.start",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.complete",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.playtime",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.bucket10",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.bucket25",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.bucket50",
+                  "parent": "video.hits"
+               }
+               ,
+               {
+                  "name": "video.hits.bucket75",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.bucket90",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.bucket100",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.seek",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.buffer",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.bufferTime",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.skipSummaryShown",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.skipSummaryClicked",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.skipOpeningShown",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.skipOpeningClicked",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.quickSeek",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.startOver",
+                  "parent": "video.hits"
+               }
+               ,
+               {
+                  "name": "video.hits.autoskipSummary",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.startOverViewBtn",
+                  "parent": "video.hits"
+               },
+               {
+                  "name": "video.hits.playTime_Original",
+                  "parent": "video.hits"
+               }
+            ]
+          }
+
+        ]
+      },
+      {
+        "name": "globoid",
+        "parent": "ga_videos",
+        "children": [
+         {
+            "name": "globoid.id",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.gender",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.gender_inferred",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.phones_dddCellPhone",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.address_city",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.address_state",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.address_country",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.address_zipcode",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.bornIn",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.idade",
+            "parent": "globoid"  
+         },
+         {
+            "name": "globoid.faixa_etaria",
+            "parent": "globoid"  
+         },
+        ]
+      }
+    ]
+  }
