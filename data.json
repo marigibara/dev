@@ -4,33 +4,32 @@
     "children": [
       {
         "name": "date",
-        "parent": "ga_videos",        
+        "parent": "ga_videos"        
       },
       {
         "name": "fullvisitorid",
-        "parent": "ga_videos",        
+        "parent": "ga_videos"        
       },
       {
         "name": "visitid",
-        "parent": "ga_videos",        
+        "parent": "ga_videos"        
       },
       {
         "name": "clientid",
-        "parent": "ga_videos",        
+        "parent": "ga_videos"        
       },
       {
         "name": "provider",
-        "parent": "ga_videos",        
+        "parent": "ga_videos"        
       },
       {
         "name": "visitStartTime",
-        "parent": "ga_videos",        
+        "parent": "ga_videos"        
       },
       {
         "name": "fullvisitorid",
-        "parent": "ga_videos",        
+        "parent": "ga_videos"        
       },
-
       {
         "name": "device",
         "parent": "ga_videos",
@@ -409,7 +408,7 @@
          {
             "name": "globoid.faixa_etaria",
             "parent": "globoid"  
-         },
+         }
         ]
       }
     ]
