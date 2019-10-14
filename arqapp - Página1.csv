@@ -1,0 +1,11 @@
+PROJETO,UN,STATUS,PLANEJADO,COMPLEXIDADE,ORIGEM DA DEMANDA
+mapa de soluções,Negócios,done,TRUE,3,TORRES
+demanda star,Entretenimento,done,FALSE,2,ARQ
+relatório de continuísta,DGCorp,doing,FALSE,1,TORRES
+mapeamento de integrações,Acervo,backlog,TRUE,3,TORRES
+proposta de nuvem,Negócios,done,TRUE,3,TORRES
+gestão de conteúdo artístico,Entretenimento,doing,TRUE,2,ARQ
+ldd de computing e storage,DGCorp,backlog,TRUE,1,TORRES
+mam entretenimento,Acervo,backlog,FALSE,3,ARQ
+otimização de roteiro,Entretenimento,doing,TRUE,1,ARQ
+planejamento integrado da produção,Entretenimento,done,FALSE,1,ARQ
